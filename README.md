@@ -36,6 +36,15 @@ Novel CLIP training paradigm extending contrastive learning with:
 |[CLIP-L-14-CLIPA](https://huggingface.co/zhixiangwei/vlm1b-hqclip-xlarge-vitl14-clipa)|VLM-1B|78.6|63.8|
 |[CLIP-L-14-OPENAI](https://huggingface.co/zhixiangwei/hqclip-openai-large-ft-vlm1b)|VLM-1B|76.5|63.7|
 
+*[Recaption Model: Qwen2VL](https://huggingface.co/zhixiangwei/qwen2-7b-full)
+* 
+
+## Datasets
+|Dataset|Samples|URL|
+|--|--|--|
+|VLM-150M|147M|https://huggingface.co/datasets/zhixiangwei/VLM-150M|
+|VLM-1B|-|https://huggingface.co/datasets/zhixiangwei/VLM-1B|
+
 
 ## 📝 Citation
 ```bibtex
