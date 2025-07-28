@@ -71,6 +71,37 @@ Each JSON entry in VLM-150M and VLM-1B corresponds directly to a DFN dataset UID
 
 🔜 Detailed implementation guidance will be published in future releases.
 
+
+## Model Loading Instructions
+
+Our uploaded weights are compatible with both `open_clip` and `huggingface transformers`. 
+
+### For open_clip users:
+```python
+import open_clip
+
+Initialize model with transforms
+
+model, preprocess_train, preprocess_val = open_clip.create_model_and_transforms(
+    'hf-hub:zhixiangwei/vlm150m-hqclip-large-vitb16'
+)
+tokenizer = open_clip.get_tokenizer(
+    'hf-hub:zhixiangwei/vlm150m-hqclip-large-vitb16'
+)
+```
+
+
+### For Hugging Face Transformers users:
+```python
+from transformers import AutoModel
+
+Load model directly from hub
+
+model = AutoModel.from_pretrained(
+    'zhixiangwei/vlm150m-hqclip-large-vitb16'
+)
+```
+
 ## 📝 Citation
 ```bibtex
 @InProceedings{Wei2025HQCLIP,
