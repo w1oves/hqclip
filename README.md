@@ -29,6 +29,7 @@ Novel CLIP training paradigm extending contrastive learning with:
 ![Model Overview](https://github.com/user-attachments/assets/e700f75b-e0a5-4328-8466-6b496a4f971d)
 
 ---
+## Dataset and Model Zoo
 
 ## 📝 Citation
 ```bibtex
