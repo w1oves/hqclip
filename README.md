@@ -44,6 +44,32 @@ Recaption Model: [Qwen2VL](https://huggingface.co/zhixiangwei/qwen2-7b-full)
 |VLM-150M|147M|https://huggingface.co/datasets/zhixiangwei/VLM-150M|
 |VLM-1B|-|https://huggingface.co/datasets/zhixiangwei/VLM-1B|
 
+## Dataset Usage Guide
+
+### Preparation Steps
+1. **(Optional) Download CommonPool Foundation Datasets**  
+   Access CommonPool Large and XLarge versions via:  
+   [CommonPool GitHub Repository](https://github.com/mlfoundations/datacomp#downloading-commonpool)
+
+2. **Acquire DFN Base Datasets**  
+   Download DFN Large and XLarge from:  
+   [DFN Hugging Face Datasets](https://huggingface.co/datasets/apf1/datafilteringnetworks_2b)
+
+3. **Download HQ-CLIP Datasets**  
+   Obtain our enhanced datasets:
+   - VLM-150M
+   - VLM-1B
+
+### Integration Instructions
+Each JSON entry in VLM-150M and VLM-1B corresponds directly to a DFN dataset UID through matching filenames. To utilize our enhanced annotations:
+
+- **Option 1: Direct Caption Replacement**  
+  Substitute the original DFN captions with our generated annotations
+  
+- **Option 2: Dynamic Data Loading**  
+  Modify the Open CLIP dataloader to load our annotations during training runtime
+
+🔜 Detailed implementation guidance will be published in future releases.
 
 ## 📝 Citation
 ```bibtex
