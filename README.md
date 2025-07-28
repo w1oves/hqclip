@@ -29,7 +29,13 @@ Novel CLIP training paradigm extending contrastive learning with:
 ![Model Overview](https://github.com/user-attachments/assets/e700f75b-e0a5-4328-8466-6b496a4f971d)
 
 ---
-## Dataset and Model Zoo
+## Model Zoo
+|Model|Pretrained|ImageNet Top-1|DataComp Score|
+|--|--|--|--|
+|[CLIP-B-16](https://huggingface.co/zhixiangwei/vlm150m-hqclip-large-vitb16)|VLM-150M-Medium|70.6|58.6|
+|[CLIP-L-14-CLIPA](https://huggingface.co/zhixiangwei/vlm1b-hqclip-xlarge-vitl14-clipa)|VLM-1B|78.6|63.8|
+|[CLIP-L-14-OPENAI](https://huggingface.co/zhixiangwei/hqclip-openai-large-ft-vlm1b)|VLM-1B|76.5|63.7|
+
 
 ## 📝 Citation
 ```bibtex
