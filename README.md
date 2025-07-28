@@ -3,6 +3,9 @@
 <sup>1</sup> University of Science of Techonology of China    <sup>2</sup> WeChat Vision, Tencent Inc.
 
 Paper: https://arxiv.org/pdf/xxxx.xxxx.pdf
+
+Page: https://zxwei.site/hqclip/
+
 Demo: https://huggingface.co/spaces/zhixiangwei/hqclip
 
 * An efficient and effective image-text data generate pipeling, using Large Vision-Language Models (LVLMs) to generate multi-grained annotations.
