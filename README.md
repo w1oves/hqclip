@@ -104,7 +104,7 @@ model = AutoModel.from_pretrained(
 
 ## 📝 Citation
 ```
-@misc{wei2025hqclipleveraginglargevisionlanguage,
+@misc{hqclip,
       title={HQ-CLIP: Leveraging Large Vision-Language Models to Create High-Quality Image-Text Datasets and CLIP Models}, 
       author={Zhixiang Wei and Guangting Wang and Xiaoxiao Ma and Ke Mei and Huaian Chen and Yi Jin and Fengyun Rao},
       year={2025},
