@@ -1,6 +1,6 @@
 # [ICCV 2025] HQ-CLIP: Leveraging Large Vision-Language Models to Create High-Quality Image-Text Datasets 🚀
 
-[![Paper PDF](https://img.shields.io/badge/📄_Paper-PDF-critical?logo=adobeacrobatreader)](https://arxiv.org/pdf/xxxx.xxxx.pdf)
+[![Paper PDF](https://img.shields.io/badge/📄_Paper-PDF-critical?logo=adobeacrobatreader)](https://arxiv.org/abs/2507.22431)
 [![Project Page](https://img.shields.io/badge/🌐_Project-Page-blue?logo=googlechrome)](https://zxwei.site/hqclip/)
 [![Demo](https://img.shields.io/badge/🤗_Demo-HuggingFace_Spaces-yellow)](https://huggingface.co/spaces/zhixiangwei/hqclip)
 [![Dataset VLM-150M](https://img.shields.io/badge/📀_Dataset-VLM--150M-brightgreen)](https://huggingface.co/datasets/zhixiangwei/VLM-150M)
