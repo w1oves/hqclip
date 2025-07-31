@@ -103,12 +103,14 @@ model = AutoModel.from_pretrained(
 ```
 
 ## 📝 Citation
-```bibtex
-@InProceedings{Wei2025HQCLIP,
-  title     = {HQ-CLIP: Leveraging Large Vision-Language Models to Create High-Quality Image-Text Datasets},
-  author    = {Wei, Zhixiang and Wang, Guangting and et al.},
-  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year      = {2025}
+@misc{wei2025hqclipleveraginglargevisionlanguage,
+      title={HQ-CLIP: Leveraging Large Vision-Language Models to Create High-Quality Image-Text Datasets and CLIP Models}, 
+      author={Zhixiang Wei and Guangting Wang and Xiaoxiao Ma and Ke Mei and Huaian Chen and Yi Jin and Fengyun Rao},
+      year={2025},
+      eprint={2507.22431},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.22431}, 
 }
 ```
 
