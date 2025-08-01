@@ -7,7 +7,7 @@
 [![Dataset VLM-1B](https://img.shields.io/badge/💿_Dataset-VLM--1B-success)](https://huggingface.co/datasets/zhixiangwei/VLM-1B)
 
 **Authors**  
-[Zhixiang Wei](https://zxwei.site)<sup>1</sup>, Guangting Wang et al.  
+[Zhixiang Wei](https://zxwei.site)<sup>1</sup><sup>2</sup>, Guangting Wang<sup>2</sup> et al.  
 <sup>1</sup> University of Science and Technology of China  
 <sup>2</sup> WeChat Vision, Tencent Inc.  
 
