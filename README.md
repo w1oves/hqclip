@@ -42,7 +42,7 @@ Recaption Model: [Qwen2VL](https://huggingface.co/zhixiangwei/qwen2-7b-full)
 |Dataset|Samples|URL|
 |--|--|--|
 |VLM-150M|147M|https://huggingface.co/datasets/zhixiangwei/VLM-150M|
-|VLM-1B|-|https://huggingface.co/datasets/zhixiangwei/VLM-1B|
+|VLM-1B|1.37B|https://huggingface.co/datasets/zhixiangwei/VLM-1B|
 
 ## Dataset Usage Guide
 
